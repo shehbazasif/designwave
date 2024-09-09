@@ -4,25 +4,6 @@ import Link from 'next/link'
 export default function search() {
   return (
     <div className="bg-gray-100 text-gray-900 min-h-screen">
-            <header className="bg-gray-800 text-white py-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-semibold">Our Services</h1>
-        <nav>
-          <Link className="text-gray-300 hover:text-white px-3" href="http://localhost:3000/">
-            Home
-          </Link>
-          <Link className="text-gray-300 hover:text-white px-3" href="/about">
-            About
-          </Link>
-          <Link className="text-gray-300 hover:text-white px-3" href="/services">
-            Services
-          </Link>
-          <Link className="text-gray-300 hover:text-white px-3" href="/contact">
-            Contact
-          </Link>
-        </nav>
-      </div>
-    </header>
     <main className="py-8">
       <div className="container mx-auto px-4">
         <section id="developer-teams" className="mb-12">
